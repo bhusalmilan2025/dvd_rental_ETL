@@ -1,6 +1,6 @@
 # Airbyte Config Summary
 
-##Source Configuration
+## Source Configuration
 **Source Type:** PostgreSQL  
 **Source Name:** dvd-rental  
 **Host:** host.docker.internal  
@@ -9,7 +9,7 @@
 **User:** postgres  
 **Password:** dvdpass  
 
-##Destination Configuration
+## Destination Configuration
 **Destination Type:** Snowflake  
 **Destination Name:** snowflake-destination  
 **Warehouse:** COMPUTE_WH  
@@ -19,7 +19,7 @@
 **Storage Location:** Internal  
 **Personal Access:** Used Airbyte Connector  
 
-##Sync Configuration
+## Sync Configuration
 **Sync Frequency:** 24 hrs 
 **Sync Mode:**  
 - Full Refresh → Overwrite (initial load)  
@@ -27,10 +27,12 @@
 **Normalization:** Basic  
 
 ## Tables Synced
-- actor  
+- actor
+- address  
 - category  
 - city  
-- country  
+- country
+- customer 
 - inventory  
 - language  
 - payment  
