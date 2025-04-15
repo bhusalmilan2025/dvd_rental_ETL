@@ -1,7 +1,7 @@
 # Big Data ETL Project – DVD Rental
 
 ## Project Overview
-This project demonstrates a modern end-to-end ETL pipeline using Airbyte, Snowflake, DBT-style SQL transformations, and Power BI dashboards. The dataset used is the classic [DVD Rental PostgreSQL sample](https://www.postgresqltutorial.com/postgresql-sample-database/).
+This project demonstrates a modern end-to-end ETL pipeline using Airbyte, Snowflake, DBT-style SQL transformations, and Power BI dashboards. The dataset used is the classic [DVD Rental PostgreSQL sample](https://neon.tech/postgresql/postgresql-getting-started/postgresql-sample-database).
 
 
 ## Tools & Stack
